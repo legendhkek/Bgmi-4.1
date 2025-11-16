@@ -5,6 +5,8 @@ advanced_ban_fix_offsets.json
 *_analysis.json
 *_result.json
 *_result.txt
+*_bypass_analysis.json
+*_bypass_analysis.txt
 
 # Python cache
 __pycache__/
