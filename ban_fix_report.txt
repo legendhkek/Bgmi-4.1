@@ -1,0 +1,24 @@
+BGMI 4.1 - Ban Fix Offset Analysis Report
+================================================================================
+
+CRITICAL ANTI-CHEAT FUNCTIONS (Primary Targets)
+================================================================================
+0x00000000001D3814 - AnoSDKInit
+0x00000000001D3B40 - AnoSDKInitEx
+0x00000000001D4C0C - AnoSDKOnPause
+0x00000000001D5030 - AnoSDKOnResume
+0x00000000001D551C - AnoSDKGetReportData
+0x00000000001D624C - AnoSDKOnRecvData
+0x00000000001D6598 - AnoSDKIoctlOld
+0x00000000001D7398 - AnoSDKFree
+0x00000000001D78CC - AnoSDKGetReportData2
+0x00000000001D7938 - AnoSDKGetReportData3
+0x00000000001D79A4 - AnoSDKDelReportData3
+0x00000000001D7FC4 - AnoSDKGetReportData4
+0x00000000001D82CC - AnoSDKDelReportData4
+0x00000000001D88EC - AnoSDKOnRecvSignature
+0x00000000001D8C74 - AnoSDKRegistInfoListener
+0x00000000001D9024 - AnoSDKForExport
+0x00000000002940D0 - AnoSDKInit
+0x000000000051FA40 - AnoSDKInit
+

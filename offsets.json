@@ -1,0 +1,55 @@
+{
+  "library": "libanogs.so",
+  "version": "BGMI 4.1",
+  "analysis_date": "2025-11-16",
+  "major_offsets": {
+    "sdk_functions": {
+      "AnoSDKInit": "0x1D3814",
+      "AnoSDKInitEx": "0x1D3B40",
+      "AnoSDKSetUserInfo": "0x1D4050",
+      "AnoSDKSetUserInfoWithLicense": "0x1D4680",
+      "AnoSDKOnPause": "0x1D4C0C",
+      "AnoSDKOnResume": "0x1D5030",
+      "AnoSDKGetReportData": "0x1D551C",
+      "AnoSDKDelReportData": "0x1D5CD0",
+      "AnoSDKOnRecvData": "0x1D624C",
+      "AnoSDKIoctlOld": "0x1D6598",
+      "AnoSDKIoctl": "0x1D6730",
+      "AnoSDKFree": "0x1D7398",
+      "AnoSDKGetReportData2": "0x1D78CC",
+      "AnoSDKGetReportData3": "0x1D7938",
+      "AnoSDKDelReportData3": "0x1D79A4",
+      "AnoSDKGetReportData4": "0x1D7FC4",
+      "AnoSDKDelReportData4": "0x1D82CC",
+      "AnoSDKOnRecvSignature": "0x1D88EC",
+      "AnoSDKRegistInfoListener": "0x1D8C74",
+      "AnoSDKForExport": "0x1D9024"
+    }
+  },
+  "best_offsets": {
+    "early_init_functions": {
+      "sub_1C1350": "0x1C1350",
+      "sub_1C1360": "0x1C1360",
+      "sub_1C1368": "0x1C1368",
+      "sub_1C1384": "0x1C1384",
+      "sub_1C13A0": "0x1C13A0",
+      "sub_1C1414": "0x1C1414",
+      "sub_1C17E4": "0x1C17E4",
+      "sub_1C1F9C": "0x1C1F9C",
+      "sub_1C264C": "0x1C264C",
+      "sub_1C28F4": "0x1C28F4"
+    },
+    "critical_values": {
+      "mask_ffffffff": "0xFFFFFFFF",
+      "sign_bit": "0x80000000",
+      "memory_base_1": "0x10000000",
+      "max_int": "0x7FFFFFFF",
+      "memory_base_2": "0x40000000"
+    }
+  },
+  "statistics": {
+    "total_functions": 17531,
+    "sdk_functions": 18,
+    "unique_patterns": 1132
+  }
+}

@@ -1,0 +1,9 @@
+# Ultimate Ban Fix Offset Finder - Requirements
+# Created by @LEGEND_BL (PREMIUM USER)
+
+# Core dependencies for Ultimate Telegram Bot
+python-telegram-bot>=20.0
+
+# Note: No other dependencies needed!
+# All analysis logic integrated into bot
+# No CLI/GUI dependencies required
