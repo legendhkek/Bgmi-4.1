@@ -1,0 +1,128 @@
+{
+  "library": "libanogs.so",
+  "version": "BGMI 4.1",
+  "analysis_type": "ban_fix_offsets",
+  "total_functions": 17531,
+  "categories": {
+    "critical_anti_cheat": {
+      "count": 18,
+      "offsets": [
+        {
+          "name": "AnoSDKInit",
+          "offset": "0x00000000001D3814",
+          "decimal": 1914900
+        },
+        {
+          "name": "AnoSDKInitEx",
+          "offset": "0x00000000001D3B40",
+          "decimal": 1915712
+        },
+        {
+          "name": "AnoSDKOnPause",
+          "offset": "0x00000000001D4C0C",
+          "decimal": 1920012
+        },
+        {
+          "name": "AnoSDKOnResume",
+          "offset": "0x00000000001D5030",
+          "decimal": 1921072
+        },
+        {
+          "name": "AnoSDKGetReportData",
+          "offset": "0x00000000001D551C",
+          "decimal": 1922332
+        },
+        {
+          "name": "AnoSDKOnRecvData",
+          "offset": "0x00000000001D624C",
+          "decimal": 1925708
+        },
+        {
+          "name": "AnoSDKIoctlOld",
+          "offset": "0x00000000001D6598",
+          "decimal": 1926552
+        },
+        {
+          "name": "AnoSDKFree",
+          "offset": "0x00000000001D7398",
+          "decimal": 1930136
+        },
+        {
+          "name": "AnoSDKGetReportData2",
+          "offset": "0x00000000001D78CC",
+          "decimal": 1931468
+        },
+        {
+          "name": "AnoSDKGetReportData3",
+          "offset": "0x00000000001D7938",
+          "decimal": 1931576
+        },
+        {
+          "name": "AnoSDKDelReportData3",
+          "offset": "0x00000000001D79A4",
+          "decimal": 1931684
+        },
+        {
+          "name": "AnoSDKGetReportData4",
+          "offset": "0x00000000001D7FC4",
+          "decimal": 1933252
+        },
+        {
+          "name": "AnoSDKDelReportData4",
+          "offset": "0x00000000001D82CC",
+          "decimal": 1934028
+        },
+        {
+          "name": "AnoSDKOnRecvSignature",
+          "offset": "0x00000000001D88EC",
+          "decimal": 1935596
+        },
+        {
+          "name": "AnoSDKRegistInfoListener",
+          "offset": "0x00000000001D8C74",
+          "decimal": 1936500
+        },
+        {
+          "name": "AnoSDKForExport",
+          "offset": "0x00000000001D9024",
+          "decimal": 1937444
+        },
+        {
+          "name": "AnoSDKInit",
+          "offset": "0x00000000002940D0",
+          "decimal": 2703568
+        },
+        {
+          "name": "AnoSDKInit",
+          "offset": "0x000000000051FA40",
+          "decimal": 5372480
+        }
+      ]
+    },
+    "detection_functions": {
+      "count": 0,
+      "offsets": []
+    },
+    "signature_verification": {
+      "count": 0,
+      "offsets": []
+    },
+    "license_checks": {
+      "count": 0,
+      "offsets": []
+    },
+    "report_functions": {
+      "count": 0,
+      "offsets": []
+    },
+    "memory_checks": {
+      "count": 0,
+      "offsets": []
+    },
+    "integrity_checks": {
+      "count": 0,
+      "offsets": []
+    }
+  },
+  "hook_points": []
+}
