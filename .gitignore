@@ -1,0 +1,38 @@
+# Advanced Ban Fix Offset Finder - Git Ignore
+
+# Analysis output files
+advanced_ban_fix_offsets.json
+*_analysis.json
+*_result.json
+*_result.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Large files (keep source, not analysis)
+# libanogs.so.c is kept in repo

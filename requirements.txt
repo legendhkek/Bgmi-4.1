@@ -1,0 +1,17 @@
+# Advanced Ban Fix Offset Finder - Requirements
+# Created by @LEGEND_BL
+
+# Core dependencies (required)
+# No external dependencies for basic CLI mode
+
+# GUI mode dependencies (optional)
+# tkinter is included with Python on most systems
+
+# Telegram bot dependencies (optional)
+python-telegram-bot>=20.0
+asyncio
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
